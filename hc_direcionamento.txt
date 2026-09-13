@@ -1,0 +1,31 @@
+#pragma once
+
+#include <Arduino.h>
+
+namespace AICSSHCSR04 {
+    struct  Sensor {
+        int trigPin;
+        int echoPin;
+    };
+
+    void inicializar(Sensor& s, int trigPin, int echoPin) {
+        s.trigPin = trigPin;
+        s.echoPin = echoPin;
+
+        pinMode(s.trigPin, OUTPUT);
+        pinMode(s.echoPin, INPUT);
+    };
+
+    float lerDistanciaCM(Sensor& s) {
+        digitalWrite(s.trigPin, LOW);
+        delayMicroseconds(2);
+        digitalWrite(s.trigPin, HIGH);
+        delayMicroseconds(10);
+        digitalWrite(s.trigPin,LOW);
+
+        uint64_t duracao = pulseIn(s.echoPin, HIGH);
+        float distancia = duracao * 0.034 / 2;
+        return distancia;
+    }
+    
+}
