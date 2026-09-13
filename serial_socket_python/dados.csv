@@ -1,0 +1,23 @@
+timestamp,temperatura,umidade,indiceCalor,umidadeSolo,situacaoSolo,velocidadeVento,situacaoVento,temperaturaBMP,pressaoAtmosferica,situacaoBMP,luminosidade,situacaoLuz
+
+2026-06-09T17:42:14.238883-03:00,24,40,23.49976,0,Muito molhado,0,Muito lento,24,101327,Normal,0,escuro
+2026-06-09T17:42:19.313414-03:00,24,40,23.49976,536,Muito molhado,0,Muito lento,24,101327,Normal,0,escuro
+2026-06-09T17:42:24.415018-03:00,24,40,23.49976,4095,Muito seco,0,Muito lento,24,101327,Normal,0,escuro
+2026-06-09T17:42:29.521036-03:00,24,40,23.49976,4095,Muito seco,0,Muito lento,24,101327,Normal,0,escuro
+2026-06-09T17:42:34.712452-03:00,24,40,23.49976,4095,Muito seco,2670,Rapido,24,101327,Normal,0,escuro
+2026-06-09T17:42:39.790508-03:00,24,40,23.49976,4095,Muito seco,1473,Lento,24,101327,Normal,0,escuro
+2026-06-09T17:42:44.922021-03:00,24,40,23.49976,4095,Muito seco,1473,Lento,24,101327,Normal,0,escuro
+2026-06-09T17:42:50.088904-03:00,24,40,23.49976,4095,Muito seco,1473,Lento,24,101327,Normal,1,iluminado
+2026-06-09T17:42:55.170691-03:00,54.3,40,99.30126,4095,Muito seco,1473,Lento,24,101327,Normal,1,iluminado
+2026-06-09T17:43:00.278026-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,24,101327,Normal,1,iluminado
+2026-06-09T17:43:05.373014-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,24,101327,Normal,1,iluminado
+2026-06-09T17:43:10.462391-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,24,101327,Normal,1,iluminado
+2026-06-09T17:43:15.587266-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,24,101327,Normal,1,iluminado
+2026-06-09T17:43:20.988482-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,57.3,101324,Normal,1,iluminado
+2026-06-09T17:43:26.088488-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,57.3,88999,Muito baixa,1,iluminado
+2026-06-09T17:43:31.223967-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,57.3,55750,Muito baixa,1,iluminado
+2026-06-09T17:43:36.327110-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,57.3,66749,Muito baixa,1,iluminado
+2026-06-09T17:43:41.440129-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,57.3,76001,Muito baixa,1,iluminado
+2026-06-09T17:43:46.523017-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,57.3,92749,Muito baixa,1,iluminado
+2026-06-09T17:43:51.622199-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,57.3,105249,Muito alta,1,iluminado
+2026-06-09T17:43:56.731940-03:00,57.5,64.5,179.7016,4095,Muito seco,1473,Lento,57.3,105249,Muito alta,1,iluminado
